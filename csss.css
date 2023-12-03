@@ -1,0 +1,250 @@
+body{
+
+    margin-left:50px;
+    }
+    header{
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    width:1400px;
+    height:100px;
+    position: relative;
+    background-size:100%;
+    }
+    
+    
+    #aa{
+        background-color:#9ACD32		;
+        color: white;
+        border: 7px solid#9ACD32		;
+        padding: 8px 12px;
+        text-align: center;
+        border-radius: 20px;
+       height: 3em;
+       width:7em;
+      font-size:15px ;
+      text-decoration: none;
+      margin-top: 20px;;
+      
+      }
+      
+
+
+    
+    
+ 
+    header ul{
+  
+        padding: 0px;
+        list-style: none;
+        font-family: serif;
+        font-size: 13.5px;
+        display: block;
+        top:20px;
+        right:150px;
+        position:absolute;
+        
+    
+    }
+     header ul li{
+        display:inline;
+        margin-right:10px;
+      
+    }
+    
+    header a{
+        text-decoration: none;
+    }
+    
+    header h1 {
+        position:absolute;
+        font-family:Stencil Std, fantasy;
+        font-size: 3.1;
+        top:10px;
+        left:10px;
+        animation-duration: 5s;
+        animation-name: glissement;
+        animation-iteration-count:calc(2);
+      }
+      @keyframes glissement {
+        from {
+          margin-left: 10%;
+          width: 100%;
+       
+        }
+      
+        to {
+          margin-left:-43%;
+          width: 100%;
+        }
+      }
+    
+    #propos{
+        position: absolute ;
+        top:200px;
+        left: 45px;
+        font-size: 20px;
+        font-family: Blippo, fantasy	;
+        width:500px;
+     
+      color:	black;
+    
+    
+    
+    
+    }
+    hr.solid {
+        border-top: 5px solid #bbb;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+      
+    h1{
+        text-align: center;
+    
+    }
+    .pdiv{
+      background-image: url(232.jpg);
+      background-repeat: no-repeat;
+    background-position-x: 0px;
+    width:1400px;
+    height:2270px;
+    position: relative;
+    background-size:cover;
+    }
+
+
+#image{
+  width: 100px;
+height:100px;
+position: absolute;
+top:45px;
+left:46.5%
+}
+#images{
+  width: 100px;
+  height:100px;
+  position: absolute;
+  top:102.8em;
+  left:46.5%;
+  border-radius: 1.3em;
+
+}
+
+#imageee{
+  width: 100px;
+height:100px;
+position: absolute;
+top:71em;
+left:46.5%
+}
+#imagee{
+  width: 100px;
+height:100px;
+position: absolute;
+top:36em;
+left:46.5%
+}
+h2{
+  font-family:Stencil Std ;
+  font-size: 25px;
+  text-align: center;
+  color: aquamarine;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    footer{
+       
+      width:1400px;
+      background-color: #696969	;
+      height:200px;
+      color:white;
+     position: relative;
+      
+   
+  
+  }
+  #denden1{
+      position: absolute;
+  width:600px;
+  left:650px;
+  top:170px;
+  font-weight:bolder;
+  
+  }
+  #denden{
+  position: absolute;
+  width:-60em;
+  left:50px;
+  top:30px;
+  
+  }
+  #lala{
+      position: absolute;
+      top:1220px;
+      left:46.5em;
+  }
+  
+  #denden2{
+      position:absolute;
+      right:186px;
+      top:20px;
+      display:inline-block;
+  
+      
+  }
+  #ma {
+  
+      display:inline;
+  }
+  #ma a{margin-right: -4px;
+  margin-left: -2px;}
+  footer a{
+      color:white;
+  }
+  #ld{
+      position: absolute;
+     
+      right:40%;
+      top:4.3em;
+    }
